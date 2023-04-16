@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e7586ff-25f9-4e40-8f1f-f51b7e5f0ce1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon_Automation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/amz1_amazonsuggestedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/amz1_amazonsuggestedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/amz2_amazonsearchicon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/amz2_amazonsearchicon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/amz3_amazonproductselection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/amz3_amazonproductselection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/amz4_amazonproductdetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/amz4_amazonproductdetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/amz5_amazonaddtocartfunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/amz5_amazonaddtocartfunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/amz6_amazonshoppingcart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/amz6_amazonshoppingcart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/amz1_amazonsuggestedlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/amz1_amazonsuggestedlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/amz2_amazonsearchicon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/amz2_amazonsearchicon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/amz3_amazonproductselection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/amz3_amazonproductselection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/amz4_amazonproductdetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/amz4_amazonproductdetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/amz5_amazonaddtocartfunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/amz5_amazonaddtocartfunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/amz6_amazonshoppingcart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/amz6_amazonshoppingcart.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +44,8 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2MaomEf9Gsz8Tk0CJ78GX7Vx85F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,15 +54,25 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gihan/IdeaProjects/Amazon_Automation/drivers&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Sahan.Monaara/IdeaProjects/amazon-nsd/drivers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/drivers" />
       <recent name="C:\Users\gihan\IdeaProjects\Amazon_Automation\drivers" />
       <recent name="C:\Users\gihan\IdeaProjects\Amazon_Automation\Drivers" />
     </key>
@@ -58,8 +80,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.amz3_amazonproductselection">
-    <configuration name="amz1_amazonsuggestedlist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.amz6_amazonshoppingcart">
+    <configuration name="amz2_amazonsearchicon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Amazon_Automation" />
       <extension name="coverage">
         <pattern>
@@ -68,24 +90,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.amz1_amazonsuggestedlist" />
+      <option name="MAIN_CLASS_NAME" value="org.example.amz2_amazonsearchicon" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="amz1_amazonsuggestedlist.amazonsuggestedlist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Amazon_Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.amz1_amazonsuggestedlist" />
-      <option name="METHOD_NAME" value="amazonsuggestedlist" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,7 +111,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="amz5_amazonaddtocartfunction.amazonProductDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="amz4_amazonproductdetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.amz4_amazonproductdetails" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="amz5_amazonaddtocartfunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Amazon_Automation" />
       <extension name="coverage">
         <pattern>
@@ -115,13 +136,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.amz5_amazonaddtocartfunction" />
-      <option name="METHOD_NAME" value="amazonProductDetails" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="amz6_amazonshoppingcart.amazonShoppingCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="amz6_amazonshoppingcart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Amazon_Automation" />
       <extension name="coverage">
         <pattern>
@@ -131,19 +151,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.amz6_amazonshoppingcart" />
-      <option name="METHOD_NAME" value="amazonShoppingCart" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.amz6_amazonshoppingcart" />
+        <item itemvalue="JUnit.amz5_amazonaddtocartfunction" />
+        <item itemvalue="JUnit.amz4_amazonproductdetails" />
         <item itemvalue="JUnit.amz3_amazonproductselection" />
-        <item itemvalue="JUnit.amz1_amazonsuggestedlist" />
-        <item itemvalue="JUnit.amz1_amazonsuggestedlist.amazonsuggestedlist" />
-        <item itemvalue="JUnit.amz6_amazonshoppingcart.amazonShoppingCart" />
-        <item itemvalue="JUnit.amz5_amazonaddtocartfunction.amazonProductDetails" />
+        <item itemvalue="JUnit.amz2_amazonsearchicon" />
       </list>
     </recent_temporary>
   </component>
@@ -155,8 +174,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678015211555</updated>
+      <workItem from="1681375518270" duration="3229000" />
+      <workItem from="1681668567107" duration="1605000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

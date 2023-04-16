@@ -9,46 +9,43 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 
 public class amz3_amazonproductselection {
-    String itemName;
-    String itemPrice;
-
     @Test
-    public void amazonProductSelection() throws InterruptedException{
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\gihan\\IdeaProjects\\Amazon_Automation\\drivers\\chromedriver.exe");
-        ChromeOptions options = new  ChromeOptions();
+    public void amazonProductSelection() throws InterruptedException {
+        System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
+        ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         WebDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
 
         //Navigate to Amazon website
         driver.navigate().to("https://www.amazon.com/");
-            Thread.sleep(1000);
+        Thread.sleep(1000);
 
 
-            //Close address changing popup
-            driver.findElement(By.xpath("//*[@id=\"nav-main\"]/div[1]/div/div/div[3]/span[1]/span/input")).click();
-            Thread.sleep(500);
+        //Close address changing popup
+        driver.findElement(By.xpath("//*[@id=\"nav-main\"]/div[1]/div/div/div[3]/span[1]/span/input")).click();
+        Thread.sleep(500);
 
-            //Click on "All" dropdown to show values
-            driver.findElement(By.xpath("//*[@id=\"nav-search-bar-form\"]/div[1]")).click();
-            Thread.sleep(1000);
+        //Click on "All" dropdown to show values
+        driver.findElement(By.xpath("//*[@id=\"nav-search-bar-form\"]/div[1]")).click();
+        Thread.sleep(1000);
 
-            //Select a value from the ALL dropdown
-            WebElement allDropdownValue = driver.findElement(By.id("searchDropdownBox"));
-            Select dropdown = new Select(allDropdownValue);
-            dropdown.selectByVisibleText("Electronics");
-            Thread.sleep(1000);
+        //Select a value from the ALL dropdown
+        WebElement allDropdownValue = driver.findElement(By.id("searchDropdownBox"));
+        Select dropdown = new Select(allDropdownValue);
+        dropdown.selectByVisibleText("Electronics");
+        Thread.sleep(1000);
 
-            //Type "Laptop" in search bar
-            driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys("Laptop");
-            Thread.sleep(1500);
+        //Type "Laptop" in search bar
+        driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys("Laptop");
+        Thread.sleep(1500);
 
-            //Click on search icon
-            driver.findElement(By.xpath("//*[@id=\"nav-search-submit-button\"]")).click();
-            Thread.sleep(2000);
+        //Click on search icon
+        driver.findElement(By.xpath("//*[@id=\"nav-search-submit-button\"]")).click();
+        Thread.sleep(2000);
 
-            //select the 1st search option
-            driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[1]/div[1]/div/span[1]/div[1]/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div[1]/h2/a/span")).click();
-            Thread.sleep(1000);
+        //select the 1st search option
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[1]/div[1]/div/span[1]/div[1]/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div[1]/h2/a/span")).click();
+        Thread.sleep(1000);
     }
 }
